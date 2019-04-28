@@ -5,6 +5,7 @@ class Stack():
         self.size = size
     def isEmpty(self):
         return len(self.items) == 0 
+    #stack push method
     def push(self,item):
         if self.top == (self.size-1):
             raise Exception('stack overflow exception')
