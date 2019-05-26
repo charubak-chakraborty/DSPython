@@ -30,9 +30,9 @@ def skipToPrevious(curr):
     return curr
 
 def isNextOrPrevious(curr, target):
-    if (curr+1) == target:
+    if skipToNext(curr) == target:
         return {"isNextOrPrevious":True,"val":"Next"}
-    elif (curr-1) == target:
+    elif skipToPrevious(curr) == target:
         return {"isNextOrPrevious":True,"val":"Previous"}
     else:
         return {"isNextOrPrevious":False,"val":""}
