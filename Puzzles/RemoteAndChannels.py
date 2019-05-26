@@ -8,6 +8,9 @@
 #   1
 #   o/p:
 #   3,3,1,3,1,1,3,0
+# 
+#   similar problem statement:
+#   https://www.spoj.com/problems/WITTYBOY/
 
 allChannels = range(1,200)
 channelsToTraverse = [12,44,45,125,126,128,199,1]
